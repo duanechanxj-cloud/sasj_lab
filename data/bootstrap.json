@@ -4,7 +4,7 @@
     "school": "St Andrew's School (Junior)",
     "year": 2026,
     "crest_url": "assets/sasj-crest-clean.webp",
-    "prototype_version": "v0.5",
+    "prototype_version": "v0.6",
     "demo_mode": true,
     "demo_note": "Public HOD prototype. Browser-local demo data only; no production authentication or shared database."
   },
@@ -2498,17 +2498,18 @@
       "teacher": "Duane Chan",
       "class_name": "P5 Wonder",
       "week": "Odd",
-      "day": "Thu",
+      "day": "Mon",
       "lab": "Lab 2",
       "start_time": "10:00",
       "end_time": "11:00",
       "activity": "Activity 5.6",
       "sets": "10",
       "apparatus": "Bulbs, switches, battery holders, connecting wires",
-      "remarks": "Demo request",
+      "remarks": "Demo pending request with no conflict.",
       "status": "Pending",
       "conflicts": [],
-      "submitted_at": "2026-09-05 14:10"
+      "submitted_at": "2026-09-05 14:10",
+      "date": "2026-09-07"
     },
     {
       "id": "req-demo-conflict",
@@ -2526,14 +2527,15 @@
       "remarks": "Demo conflict request so the HOD can see the warning workflow.",
       "status": "Pending",
       "conflicts": [],
-      "submitted_at": "2026-09-06 15:20"
+      "submitted_at": "2026-09-06 15:20",
+      "date": "2026-09-09"
     }
   ],
   "settings": {
     "active_timetable_version": "2026 Current Manual Pre-assigned Schedule \u2014 P3\u2013P5",
     "baseline_source": "manual_reference",
     "confirmation_deadline": "14:00",
-    "confirmation_deadline_finalised": false,
+    "confirmation_deadline_finalised": true,
     "auto_release_preassigned_only": true,
     "email_reminders_enabled": false,
     "email_reminders_planned": true,
@@ -2545,6 +2547,65 @@
       "P5": "Lab 2",
       "P6": "Lab 2"
     },
-    "buffer_period_minutes": 30
+    "buffer_period_minutes": 30,
+    "odd_week_reference_monday": "2026-09-07"
+  },
+  "session_actions": {
+    "P4 Unity|Odd|Mon|Lab 1|12:30@@2026-09-07": {
+      "allocation_key": "P4 Unity|Odd|Mon|Lab 1|12:30",
+      "original_date": "2026-09-07",
+      "date": "2026-09-07",
+      "status": "Confirmed",
+      "teacher": "Yogeshwari",
+      "activity": "Activity 4.3",
+      "sets": "10",
+      "apparatus": "Beakers and measuring cylinders",
+      "remarks": "Demo confirmed session",
+      "lab": "Lab 1",
+      "start_time": "12:30",
+      "end_time": "13:30"
+    },
+    "P3 Wonder|Odd|Tue|Lab 1|10:00@@2026-09-08": {
+      "allocation_key": "P3 Wonder|Odd|Tue|Lab 1|10:00",
+      "original_date": "2026-09-08",
+      "date": "2026-09-08",
+      "status": "Confirmed",
+      "teacher": "Gayathree",
+      "activity": "Activity 3.2",
+      "sets": "10",
+      "apparatus": "Torches and opaque/translucent materials",
+      "remarks": "Demo confirmed session",
+      "lab": "Lab 1",
+      "start_time": "10:00",
+      "end_time": "11:00"
+    },
+    "P5 Unity|Odd|Wed|Lab 1|09:30@@2026-09-09": {
+      "allocation_key": "P5 Unity|Odd|Wed|Lab 1|09:30",
+      "original_date": "2026-09-09",
+      "date": "2026-09-09",
+      "status": "Confirmed",
+      "teacher": "Duane Chan",
+      "activity": "Activity 5.4",
+      "sets": "10",
+      "apparatus": "Magnets and test objects",
+      "remarks": "Demo confirmed session",
+      "lab": "Lab 1",
+      "start_time": "09:30",
+      "end_time": "10:30"
+    },
+    "P5 Thanksgiving|Odd|Wed|Lab 2|09:30@@2026-09-09": {
+      "allocation_key": "P5 Thanksgiving|Odd|Wed|Lab 2|09:30",
+      "original_date": "2026-09-09",
+      "date": "2026-09-09",
+      "status": "Confirmed",
+      "teacher": "Serene Han",
+      "activity": "Activity 5.6",
+      "sets": "10",
+      "apparatus": "Bulbs, switches, battery holders and connecting wires",
+      "remarks": "Demo confirmed session",
+      "lab": "Lab 2",
+      "start_time": "09:30",
+      "end_time": "10:30"
+    }
   }
 }

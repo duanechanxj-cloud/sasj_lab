@@ -1,4 +1,4 @@
-# SASJ Science Lab Management — HOD Prototype v0.5
+# SASJ Science Lab Management — HOD Prototype v0.6
 
 This folder is a **static GitHub Pages-ready prototype** for demonstrating the intended SASJ Science Lab Management workflow. It does not require Python or a server for the HOD demo.
 
@@ -11,7 +11,15 @@ Roles:
 - Lab Technician
 - System Admin
 
-## Major v0.5 demo features
+## v0.6 schedule changes
+- Lab Schedule is now calendar-date based rather than showing only abstract Odd/Even day names.
+- The app automatically derives Odd/Even Week from a timetable reference Monday.
+- Pre-assigned (unconfirmed) sessions are blue. Confirmed sessions are green. Pending requests are translucent orange.
+- Unconfirmed pre-assigned sessions are automatically treated as released after 2:00 PM on the previous day. This does not affect approved ad hoc/event bookings.
+- The demo includes pre-confirmed sessions and two pending requests, including one conflict example.
+- Create Booking and amendment workflows now use actual dates.
+
+## Major v0.6 demo features
 - Cleaned SASJ crest and white SASJ-blue brand block
 - Role-specific dashboards
 - Current P3–P5 pre-assigned Lab 1 / Lab 2 schedule
