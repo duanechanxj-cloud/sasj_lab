@@ -1,0 +1,2550 @@
+{
+  "app": {
+    "name": "SASJ Science Lab Management",
+    "school": "St Andrew's School (Junior)",
+    "year": 2026,
+    "crest_url": "assets/sasj-crest-clean.webp",
+    "prototype_version": "v0.5",
+    "demo_mode": true,
+    "demo_note": "Public HOD prototype. Browser-local demo data only; no production authentication or shared database."
+  },
+  "teachers": [
+    {
+      "id": "duane-chan",
+      "name": "Duane Chan",
+      "email": "duane_chan_xin_jie@moe.edu.sg",
+      "classes": [
+        "P3 Unity",
+        "P5 Unity",
+        "P5 Wonder"
+      ],
+      "roles": [
+        "system_admin",
+        "science_teacher"
+      ],
+      "active": true
+    },
+    {
+      "id": "nur-hazura",
+      "name": "Nur Hazura",
+      "email": "nur_hazura_hamdan@moe.edu.sg",
+      "classes": [
+        "P3 Thanksgiving",
+        "P3 Resilience",
+        "P6 Integrity"
+      ],
+      "roles": [
+        "science_teacher"
+      ],
+      "active": true
+    },
+    {
+      "id": "gayathree",
+      "name": "Gayathree",
+      "email": "gayathree_vellasamy@moe.edu.sg",
+      "classes": [
+        "P3 Empathy",
+        "P3 Wonder"
+      ],
+      "roles": [
+        "science_teacher"
+      ],
+      "active": true
+    },
+    {
+      "id": "serene-han",
+      "name": "Serene Han",
+      "email": "serene_han_tui_kin@moe.edu.sg",
+      "classes": [
+        "P3 Integrity",
+        "P5 Thanksgiving",
+        "P5 Integrity"
+      ],
+      "roles": [
+        "science_teacher"
+      ],
+      "active": true
+    },
+    {
+      "id": "doreen-kieu",
+      "name": "Doreen Kieu",
+      "email": "tan_chu_hua@moe.edu.sg",
+      "classes": [
+        "P4 Thanksgiving",
+        "P5 Empathy"
+      ],
+      "roles": [
+        "science_teacher"
+      ],
+      "active": true
+    },
+    {
+      "id": "joanna-lee",
+      "name": "Joanna Lee",
+      "email": "lee_jia_en_joanna_a@moe.edu.sg",
+      "classes": [
+        "P4 Resilience",
+        "P4 Empathy"
+      ],
+      "roles": [
+        "science_teacher"
+      ],
+      "active": true
+    },
+    {
+      "id": "yogeshwari",
+      "name": "Yogeshwari",
+      "email": "kannadasan_yogeshwari@moe.edu.sg",
+      "classes": [
+        "P4 Unity",
+        "P4 Integrity",
+        "P6 Resilience"
+      ],
+      "roles": [
+        "science_teacher"
+      ],
+      "active": true
+    },
+    {
+      "id": "zuraidah",
+      "name": "Zuraidah",
+      "email": "zuraidah_abdul_malik@moe.edu.sg",
+      "classes": [
+        "P4 Empathy",
+        "P4 Wonder",
+        "P6 Wonder"
+      ],
+      "roles": [
+        "science_hod"
+      ],
+      "active": true
+    },
+    {
+      "id": "bruce-lee",
+      "name": "Bruce Lee",
+      "email": "lee_kai_chuen_bruce@moe.edu.sg",
+      "classes": [
+        "P5 Resilience"
+      ],
+      "roles": [
+        "science_teacher"
+      ],
+      "active": true
+    },
+    {
+      "id": "sonia",
+      "name": "Sonia",
+      "email": "sonia_faith_gomez_b@moe.edu.sg",
+      "classes": [],
+      "roles": [
+        "science_teacher"
+      ],
+      "active": true
+    },
+    {
+      "id": "pamela-low",
+      "name": "Pamela Low",
+      "email": "low_yi_qing_pamela@moe.edu.sg",
+      "classes": [],
+      "roles": [
+        "science_teacher"
+      ],
+      "active": true
+    },
+    {
+      "id": "alvin-chooi",
+      "name": "Alvin Chooi",
+      "email": "chooi_sian_woon@moe.edu.sg",
+      "classes": [
+        "P6 Thanksgiving"
+      ],
+      "roles": [
+        "science_teacher"
+      ],
+      "active": true
+    },
+    {
+      "id": "pushpa",
+      "name": "Pushpa",
+      "email": "pushpa_selvaraju@moe.edu.sg",
+      "classes": [
+        "P6 Unity"
+      ],
+      "roles": [
+        "science_teacher"
+      ],
+      "active": true
+    },
+    {
+      "id": "sharon-cheng",
+      "name": "Sharon Cheng",
+      "email": "sharon_cheng_shi_min@moe.edu.sg",
+      "classes": [],
+      "roles": [
+        "science_teacher"
+      ],
+      "active": true
+    }
+  ],
+  "classes": [
+    "P3 Empathy",
+    "P3 Integrity",
+    "P3 Resilience",
+    "P3 Thanksgiving",
+    "P3 Unity",
+    "P3 Wonder",
+    "P4 Empathy",
+    "P4 Integrity",
+    "P4 Resilience",
+    "P4 Thanksgiving",
+    "P4 Unity",
+    "P4 Wonder",
+    "P5 Empathy",
+    "P5 Integrity",
+    "P5 Resilience",
+    "P5 Thanksgiving",
+    "P5 Unity",
+    "P5 Wonder"
+  ],
+  "organizer_classes": [
+    "P3 Empathy",
+    "P3 Integrity",
+    "P3 Resilience",
+    "P3 Thanksgiving",
+    "P3 Unity",
+    "P3 Wonder",
+    "P4 Empathy",
+    "P4 Integrity",
+    "P4 Resilience",
+    "P4 Thanksgiving",
+    "P4 Unity",
+    "P4 Wonder",
+    "P5 Empathy",
+    "P5 Integrity",
+    "P5 Resilience",
+    "P5 Thanksgiving",
+    "P5 Unity",
+    "P5 Wonder",
+    "P6 Empathy",
+    "P6 Integrity",
+    "P6 Resilience",
+    "P6 Thanksgiving",
+    "P6 Unity",
+    "P6 Wonder"
+  ],
+  "opportunities": {
+    "P3 Empathy": [
+      {
+        "class_name": "P3 Empathy",
+        "week": "Odd",
+        "day": "Wed",
+        "start_period": 9,
+        "end_period": 10,
+        "start_time": "11:30",
+        "end_time": "12:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P3 Empathy",
+        "week": "Odd",
+        "day": "Thu",
+        "start_period": 1,
+        "end_period": 2,
+        "start_time": "07:30",
+        "end_time": "08:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P3 Empathy",
+        "week": "Even",
+        "day": "Mon",
+        "start_period": 7,
+        "end_period": 8,
+        "start_time": "10:30",
+        "end_time": "11:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P3 Empathy",
+        "week": "Even",
+        "day": "Thu",
+        "start_period": 9,
+        "end_period": 10,
+        "start_time": "11:30",
+        "end_time": "12:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      }
+    ],
+    "P3 Integrity": [
+      {
+        "class_name": "P3 Integrity",
+        "week": "Odd",
+        "day": "Mon",
+        "start_period": 11,
+        "end_period": 12,
+        "start_time": "12:30",
+        "end_time": "13:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P3 Integrity",
+        "week": "Odd",
+        "day": "Wed",
+        "start_period": 6,
+        "end_period": 7,
+        "start_time": "10:00",
+        "end_time": "11:00",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P3 Integrity",
+        "week": "Odd",
+        "day": "Fri",
+        "start_period": 9,
+        "end_period": 10,
+        "start_time": "13:30",
+        "end_time": "14:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      }
+    ],
+    "P3 Resilience": [
+      {
+        "class_name": "P3 Resilience",
+        "week": "Odd",
+        "day": "Mon",
+        "start_period": 7,
+        "end_period": 8,
+        "start_time": "10:30",
+        "end_time": "11:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P3 Resilience",
+        "week": "Odd",
+        "day": "Thu",
+        "start_period": 11,
+        "end_period": 12,
+        "start_time": "12:30",
+        "end_time": "13:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P3 Resilience",
+        "week": "Even",
+        "day": "Mon",
+        "start_period": 11,
+        "end_period": 12,
+        "start_time": "12:30",
+        "end_time": "13:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P3 Resilience",
+        "week": "Even",
+        "day": "Wed",
+        "start_period": 6,
+        "end_period": 7,
+        "start_time": "10:00",
+        "end_time": "11:00",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P3 Resilience",
+        "week": "Even",
+        "day": "Thu",
+        "start_period": 1,
+        "end_period": 2,
+        "start_time": "07:30",
+        "end_time": "08:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      }
+    ],
+    "P3 Thanksgiving": [
+      {
+        "class_name": "P3 Thanksgiving",
+        "week": "Odd",
+        "day": "Tue",
+        "start_period": 1,
+        "end_period": 2,
+        "start_time": "07:30",
+        "end_time": "08:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P3 Thanksgiving",
+        "week": "Odd",
+        "day": "Wed",
+        "start_period": 9,
+        "end_period": 10,
+        "start_time": "11:30",
+        "end_time": "12:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P3 Thanksgiving",
+        "week": "Even",
+        "day": "Tue",
+        "start_period": 1,
+        "end_period": 2,
+        "start_time": "07:30",
+        "end_time": "08:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P3 Thanksgiving",
+        "week": "Even",
+        "day": "Thu",
+        "start_period": 3,
+        "end_period": 4,
+        "start_time": "08:30",
+        "end_time": "09:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P3 Thanksgiving",
+        "week": "Even",
+        "day": "Fri",
+        "start_period": 1,
+        "end_period": 2,
+        "start_time": "09:30",
+        "end_time": "10:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      }
+    ],
+    "P3 Unity": [
+      {
+        "class_name": "P3 Unity",
+        "week": "Odd",
+        "day": "Mon",
+        "start_period": 11,
+        "end_period": 12,
+        "start_time": "12:30",
+        "end_time": "13:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P3 Unity",
+        "week": "Odd",
+        "day": "Thu",
+        "start_period": 1,
+        "end_period": 2,
+        "start_time": "07:30",
+        "end_time": "08:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P3 Unity",
+        "week": "Odd",
+        "day": "Fri",
+        "start_period": 1,
+        "end_period": 2,
+        "start_time": "09:30",
+        "end_time": "10:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P3 Unity",
+        "week": "Even",
+        "day": "Tue",
+        "start_period": 9,
+        "end_period": 10,
+        "start_time": "11:30",
+        "end_time": "12:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P3 Unity",
+        "week": "Even",
+        "day": "Wed",
+        "start_period": 1,
+        "end_period": 2,
+        "start_time": "07:30",
+        "end_time": "08:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      }
+    ],
+    "P3 Wonder": [
+      {
+        "class_name": "P3 Wonder",
+        "week": "Odd",
+        "day": "Tue",
+        "start_period": 3,
+        "end_period": 4,
+        "start_time": "08:30",
+        "end_time": "09:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P3 Wonder",
+        "week": "Odd",
+        "day": "Fri",
+        "start_period": 9,
+        "end_period": 10,
+        "start_time": "13:30",
+        "end_time": "14:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P3 Wonder",
+        "week": "Even",
+        "day": "Tue",
+        "start_period": 1,
+        "end_period": 2,
+        "start_time": "07:30",
+        "end_time": "08:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P3 Wonder",
+        "week": "Even",
+        "day": "Wed",
+        "start_period": 9,
+        "end_period": 10,
+        "start_time": "11:30",
+        "end_time": "12:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P3 Wonder",
+        "week": "Even",
+        "day": "Thu",
+        "start_period": 11,
+        "end_period": 12,
+        "start_time": "12:30",
+        "end_time": "13:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      }
+    ],
+    "P4 Empathy": [
+      {
+        "class_name": "P4 Empathy",
+        "week": "Odd",
+        "day": "Tue",
+        "start_period": 3,
+        "end_period": 4,
+        "start_time": "08:30",
+        "end_time": "09:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P4 Empathy",
+        "week": "Odd",
+        "day": "Thu",
+        "start_period": 1,
+        "end_period": 2,
+        "start_time": "07:30",
+        "end_time": "08:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P4 Empathy",
+        "week": "Even",
+        "day": "Mon",
+        "start_period": 9,
+        "end_period": 10,
+        "start_time": "11:30",
+        "end_time": "12:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P4 Empathy",
+        "week": "Even",
+        "day": "Tue",
+        "start_period": 9,
+        "end_period": 10,
+        "start_time": "11:30",
+        "end_time": "12:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      }
+    ],
+    "P4 Integrity": [
+      {
+        "class_name": "P4 Integrity",
+        "week": "Odd",
+        "day": "Thu",
+        "start_period": 1,
+        "end_period": 2,
+        "start_time": "07:30",
+        "end_time": "08:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P4 Integrity",
+        "week": "Odd",
+        "day": "Fri",
+        "start_period": 9,
+        "end_period": 10,
+        "start_time": "13:30",
+        "end_time": "14:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P4 Integrity",
+        "week": "Even",
+        "day": "Tue",
+        "start_period": 1,
+        "end_period": 2,
+        "start_time": "07:30",
+        "end_time": "08:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P4 Integrity",
+        "week": "Even",
+        "day": "Wed",
+        "start_period": 4,
+        "end_period": 5,
+        "start_time": "09:00",
+        "end_time": "10:00",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P4 Integrity",
+        "week": "Even",
+        "day": "Fri",
+        "start_period": 9,
+        "end_period": 10,
+        "start_time": "13:30",
+        "end_time": "14:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      }
+    ],
+    "P4 Resilience": [
+      {
+        "class_name": "P4 Resilience",
+        "week": "Odd",
+        "day": "Wed",
+        "start_period": 9,
+        "end_period": 10,
+        "start_time": "11:30",
+        "end_time": "12:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P4 Resilience",
+        "week": "Odd",
+        "day": "Thu",
+        "start_period": 4,
+        "end_period": 5,
+        "start_time": "09:00",
+        "end_time": "10:00",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P4 Resilience",
+        "week": "Even",
+        "day": "Tue",
+        "start_period": 1,
+        "end_period": 2,
+        "start_time": "07:30",
+        "end_time": "08:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P4 Resilience",
+        "week": "Even",
+        "day": "Wed",
+        "start_period": 9,
+        "end_period": 10,
+        "start_time": "11:30",
+        "end_time": "12:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P4 Resilience",
+        "week": "Even",
+        "day": "Fri",
+        "start_period": 2,
+        "end_period": 3,
+        "start_time": "10:00",
+        "end_time": "11:00",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      }
+    ],
+    "P4 Thanksgiving": [
+      {
+        "class_name": "P4 Thanksgiving",
+        "week": "Odd",
+        "day": "Tue",
+        "start_period": 7,
+        "end_period": 8,
+        "start_time": "10:30",
+        "end_time": "11:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P4 Thanksgiving",
+        "week": "Even",
+        "day": "Tue",
+        "start_period": 9,
+        "end_period": 10,
+        "start_time": "11:30",
+        "end_time": "12:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P4 Thanksgiving",
+        "week": "Even",
+        "day": "Thu",
+        "start_period": 1,
+        "end_period": 2,
+        "start_time": "07:30",
+        "end_time": "08:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P4 Thanksgiving",
+        "week": "Even",
+        "day": "Fri",
+        "start_period": 9,
+        "end_period": 10,
+        "start_time": "13:30",
+        "end_time": "14:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      }
+    ],
+    "P4 Unity": [
+      {
+        "class_name": "P4 Unity",
+        "week": "Odd",
+        "day": "Wed",
+        "start_period": 4,
+        "end_period": 5,
+        "start_time": "09:00",
+        "end_time": "10:00",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P4 Unity",
+        "week": "Odd",
+        "day": "Fri",
+        "start_period": 1,
+        "end_period": 2,
+        "start_time": "09:30",
+        "end_time": "10:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P4 Unity",
+        "week": "Even",
+        "day": "Wed",
+        "start_period": 1,
+        "end_period": 2,
+        "start_time": "07:30",
+        "end_time": "08:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P4 Unity",
+        "week": "Even",
+        "day": "Fri",
+        "start_period": 7,
+        "end_period": 8,
+        "start_time": "12:30",
+        "end_time": "13:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      }
+    ],
+    "P4 Wonder": [
+      {
+        "class_name": "P4 Wonder",
+        "week": "Odd",
+        "day": "Tue",
+        "start_period": 8,
+        "end_period": 9,
+        "start_time": "11:00",
+        "end_time": "12:00",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P4 Wonder",
+        "week": "Odd",
+        "day": "Wed",
+        "start_period": 9,
+        "end_period": 10,
+        "start_time": "11:30",
+        "end_time": "12:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P4 Wonder",
+        "week": "Even",
+        "day": "Mon",
+        "start_period": 7,
+        "end_period": 8,
+        "start_time": "10:30",
+        "end_time": "11:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P4 Wonder",
+        "week": "Even",
+        "day": "Wed",
+        "start_period": 7,
+        "end_period": 8,
+        "start_time": "10:30",
+        "end_time": "11:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      }
+    ],
+    "P5 Empathy": [
+      {
+        "class_name": "P5 Empathy",
+        "week": "Odd",
+        "day": "Tue",
+        "start_period": 5,
+        "end_period": 6,
+        "start_time": "09:30",
+        "end_time": "10:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P5 Empathy",
+        "week": "Odd",
+        "day": "Wed",
+        "start_period": 3,
+        "end_period": 4,
+        "start_time": "08:30",
+        "end_time": "09:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P5 Empathy",
+        "week": "Even",
+        "day": "Tue",
+        "start_period": 5,
+        "end_period": 6,
+        "start_time": "09:30",
+        "end_time": "10:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P5 Empathy",
+        "week": "Even",
+        "day": "Wed",
+        "start_period": 3,
+        "end_period": 4,
+        "start_time": "08:30",
+        "end_time": "09:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P5 Empathy",
+        "week": "Even",
+        "day": "Fri",
+        "start_period": 3,
+        "end_period": 4,
+        "start_time": "10:30",
+        "end_time": "11:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      }
+    ],
+    "P5 Integrity": [
+      {
+        "class_name": "P5 Integrity",
+        "week": "Odd",
+        "day": "Tue",
+        "start_period": 11,
+        "end_period": 12,
+        "start_time": "12:30",
+        "end_time": "13:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P5 Integrity",
+        "week": "Odd",
+        "day": "Wed",
+        "start_period": 8,
+        "end_period": 9,
+        "start_time": "11:00",
+        "end_time": "12:00",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P5 Integrity",
+        "week": "Odd",
+        "day": "Fri",
+        "start_period": 1,
+        "end_period": 2,
+        "start_time": "09:30",
+        "end_time": "10:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P5 Integrity",
+        "week": "Even",
+        "day": "Tue",
+        "start_period": 3,
+        "end_period": 4,
+        "start_time": "08:30",
+        "end_time": "09:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P5 Integrity",
+        "week": "Even",
+        "day": "Wed",
+        "start_period": 8,
+        "end_period": 9,
+        "start_time": "11:00",
+        "end_time": "12:00",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P5 Integrity",
+        "week": "Even",
+        "day": "Fri",
+        "start_period": 3,
+        "end_period": 4,
+        "start_time": "10:30",
+        "end_time": "11:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      }
+    ],
+    "P5 Resilience": [
+      {
+        "class_name": "P5 Resilience",
+        "week": "Odd",
+        "day": "Tue",
+        "start_period": 11,
+        "end_period": 12,
+        "start_time": "12:30",
+        "end_time": "13:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P5 Resilience",
+        "week": "Odd",
+        "day": "Fri",
+        "start_period": 3,
+        "end_period": 4,
+        "start_time": "10:30",
+        "end_time": "11:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P5 Resilience",
+        "week": "Even",
+        "day": "Tue",
+        "start_period": 5,
+        "end_period": 6,
+        "start_time": "09:30",
+        "end_time": "10:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P5 Resilience",
+        "week": "Even",
+        "day": "Wed",
+        "start_period": 9,
+        "end_period": 10,
+        "start_time": "11:30",
+        "end_time": "12:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P5 Resilience",
+        "week": "Even",
+        "day": "Fri",
+        "start_period": 3,
+        "end_period": 4,
+        "start_time": "10:30",
+        "end_time": "11:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      }
+    ],
+    "P5 Thanksgiving": [
+      {
+        "class_name": "P5 Thanksgiving",
+        "week": "Odd",
+        "day": "Tue",
+        "start_period": 1,
+        "end_period": 2,
+        "start_time": "07:30",
+        "end_time": "08:30",
+        "source_subjects": [
+          "FSC,SCI",
+          "FSC,SCI"
+        ]
+      },
+      {
+        "class_name": "P5 Thanksgiving",
+        "week": "Odd",
+        "day": "Wed",
+        "start_period": 3,
+        "end_period": 4,
+        "start_time": "08:30",
+        "end_time": "09:30",
+        "source_subjects": [
+          "FSC,SCI",
+          "FSC,SCI"
+        ]
+      },
+      {
+        "class_name": "P5 Thanksgiving",
+        "week": "Odd",
+        "day": "Thu",
+        "start_period": 4,
+        "end_period": 5,
+        "start_time": "09:00",
+        "end_time": "10:00",
+        "source_subjects": [
+          "FSC,SCI",
+          "FSC,SCI"
+        ]
+      },
+      {
+        "class_name": "P5 Thanksgiving",
+        "week": "Odd",
+        "day": "Fri",
+        "start_period": 3,
+        "end_period": 4,
+        "start_time": "10:30",
+        "end_time": "11:30",
+        "source_subjects": [
+          "FSC,SCI",
+          "FSC,SCI"
+        ]
+      },
+      {
+        "class_name": "P5 Thanksgiving",
+        "week": "Even",
+        "day": "Tue",
+        "start_period": 1,
+        "end_period": 2,
+        "start_time": "07:30",
+        "end_time": "08:30",
+        "source_subjects": [
+          "FSC,SCI",
+          "FSC,SCI"
+        ]
+      },
+      {
+        "class_name": "P5 Thanksgiving",
+        "week": "Even",
+        "day": "Wed",
+        "start_period": 5,
+        "end_period": 6,
+        "start_time": "09:30",
+        "end_time": "10:30",
+        "source_subjects": [
+          "FSC,SCI",
+          "FSC,SCI"
+        ]
+      }
+    ],
+    "P5 Unity": [
+      {
+        "class_name": "P5 Unity",
+        "week": "Odd",
+        "day": "Tue",
+        "start_period": 1,
+        "end_period": 2,
+        "start_time": "07:30",
+        "end_time": "08:30",
+        "source_subjects": [
+          "FSC,SCI",
+          "FSC,SCI"
+        ]
+      },
+      {
+        "class_name": "P5 Unity",
+        "week": "Odd",
+        "day": "Wed",
+        "start_period": 3,
+        "end_period": 4,
+        "start_time": "08:30",
+        "end_time": "09:30",
+        "source_subjects": [
+          "FSC,SCI",
+          "FSC,SCI"
+        ]
+      },
+      {
+        "class_name": "P5 Unity",
+        "week": "Odd",
+        "day": "Thu",
+        "start_period": 4,
+        "end_period": 5,
+        "start_time": "09:00",
+        "end_time": "10:00",
+        "source_subjects": [
+          "FSC,SCI",
+          "FSC,SCI"
+        ]
+      },
+      {
+        "class_name": "P5 Unity",
+        "week": "Odd",
+        "day": "Fri",
+        "start_period": 3,
+        "end_period": 4,
+        "start_time": "10:30",
+        "end_time": "11:30",
+        "source_subjects": [
+          "FSC,SCI",
+          "FSC,SCI"
+        ]
+      },
+      {
+        "class_name": "P5 Unity",
+        "week": "Even",
+        "day": "Tue",
+        "start_period": 1,
+        "end_period": 2,
+        "start_time": "07:30",
+        "end_time": "08:30",
+        "source_subjects": [
+          "FSC,SCI",
+          "FSC,SCI"
+        ]
+      },
+      {
+        "class_name": "P5 Unity",
+        "week": "Even",
+        "day": "Wed",
+        "start_period": 5,
+        "end_period": 6,
+        "start_time": "09:30",
+        "end_time": "10:30",
+        "source_subjects": [
+          "FSC,SCI",
+          "FSC,SCI"
+        ]
+      }
+    ],
+    "P5 Wonder": [
+      {
+        "class_name": "P5 Wonder",
+        "week": "Odd",
+        "day": "Mon",
+        "start_period": 5,
+        "end_period": 6,
+        "start_time": "09:30",
+        "end_time": "10:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P5 Wonder",
+        "week": "Odd",
+        "day": "Tue",
+        "start_period": 11,
+        "end_period": 12,
+        "start_time": "12:30",
+        "end_time": "13:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P5 Wonder",
+        "week": "Even",
+        "day": "Mon",
+        "start_period": 5,
+        "end_period": 6,
+        "start_time": "09:30",
+        "end_time": "10:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P5 Wonder",
+        "week": "Even",
+        "day": "Tue",
+        "start_period": 11,
+        "end_period": 12,
+        "start_time": "12:30",
+        "end_time": "13:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P5 Wonder",
+        "week": "Even",
+        "day": "Fri",
+        "start_period": 1,
+        "end_period": 2,
+        "start_time": "09:30",
+        "end_time": "10:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      }
+    ],
+    "P6 Empathy": [
+      {
+        "class_name": "P6 Empathy",
+        "week": "Odd",
+        "day": "Tue",
+        "start_period": 9,
+        "end_period": 10,
+        "start_time": "11:30",
+        "end_time": "12:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P6 Empathy",
+        "week": "Odd",
+        "day": "Thu",
+        "start_period": 6,
+        "end_period": 7,
+        "start_time": "10:00",
+        "end_time": "11:00",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P6 Empathy",
+        "week": "Even",
+        "day": "Tue",
+        "start_period": 11,
+        "end_period": 12,
+        "start_time": "12:30",
+        "end_time": "13:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P6 Empathy",
+        "week": "Even",
+        "day": "Thu",
+        "start_period": 11,
+        "end_period": 12,
+        "start_time": "12:30",
+        "end_time": "13:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P6 Empathy",
+        "week": "Even",
+        "day": "Fri",
+        "start_period": 1,
+        "end_period": 2,
+        "start_time": "09:30",
+        "end_time": "10:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      }
+    ],
+    "P6 Integrity": [
+      {
+        "class_name": "P6 Integrity",
+        "week": "Odd",
+        "day": "Tue",
+        "start_period": 9,
+        "end_period": 10,
+        "start_time": "11:30",
+        "end_time": "12:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P6 Integrity",
+        "week": "Odd",
+        "day": "Thu",
+        "start_period": 9,
+        "end_period": 10,
+        "start_time": "11:30",
+        "end_time": "12:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P6 Integrity",
+        "week": "Even",
+        "day": "Wed",
+        "start_period": 11,
+        "end_period": 12,
+        "start_time": "12:30",
+        "end_time": "13:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P6 Integrity",
+        "week": "Even",
+        "day": "Thu",
+        "start_period": 6,
+        "end_period": 7,
+        "start_time": "10:00",
+        "end_time": "11:00",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P6 Integrity",
+        "week": "Even",
+        "day": "Fri",
+        "start_period": 9,
+        "end_period": 10,
+        "start_time": "13:30",
+        "end_time": "14:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      }
+    ],
+    "P6 Resilience": [
+      {
+        "class_name": "P6 Resilience",
+        "week": "Odd",
+        "day": "Tue",
+        "start_period": 9,
+        "end_period": 10,
+        "start_time": "11:30",
+        "end_time": "12:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P6 Resilience",
+        "week": "Odd",
+        "day": "Wed",
+        "start_period": 11,
+        "end_period": 12,
+        "start_time": "12:30",
+        "end_time": "13:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P6 Resilience",
+        "week": "Even",
+        "day": "Tue",
+        "start_period": 11,
+        "end_period": 12,
+        "start_time": "12:30",
+        "end_time": "13:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P6 Resilience",
+        "week": "Even",
+        "day": "Wed",
+        "start_period": 9,
+        "end_period": 10,
+        "start_time": "11:30",
+        "end_time": "12:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P6 Resilience",
+        "week": "Even",
+        "day": "Thu",
+        "start_period": 6,
+        "end_period": 7,
+        "start_time": "10:00",
+        "end_time": "11:00",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      }
+    ],
+    "P6 Thanksgiving": [
+      {
+        "class_name": "P6 Thanksgiving",
+        "week": "Odd",
+        "day": "Tue",
+        "start_period": 9,
+        "end_period": 10,
+        "start_time": "11:30",
+        "end_time": "12:30",
+        "source_subjects": [
+          "FSC,SCI",
+          "FSC,SCI"
+        ]
+      },
+      {
+        "class_name": "P6 Thanksgiving",
+        "week": "Odd",
+        "day": "Thu",
+        "start_period": 6,
+        "end_period": 7,
+        "start_time": "10:00",
+        "end_time": "11:00",
+        "source_subjects": [
+          "FSC,SCI",
+          "FSC,SCI"
+        ]
+      },
+      {
+        "class_name": "P6 Thanksgiving",
+        "week": "Odd",
+        "day": "Fri",
+        "start_period": 1,
+        "end_period": 2,
+        "start_time": "09:30",
+        "end_time": "10:30",
+        "source_subjects": [
+          "FSC,SCI",
+          "FSC,SCI"
+        ]
+      },
+      {
+        "class_name": "P6 Thanksgiving",
+        "week": "Even",
+        "day": "Tue",
+        "start_period": 11,
+        "end_period": 12,
+        "start_time": "12:30",
+        "end_time": "13:30",
+        "source_subjects": [
+          "FSC,SCI",
+          "FSC,SCI"
+        ]
+      },
+      {
+        "class_name": "P6 Thanksgiving",
+        "week": "Even",
+        "day": "Wed",
+        "start_period": 9,
+        "end_period": 10,
+        "start_time": "11:30",
+        "end_time": "12:30",
+        "source_subjects": [
+          "FSC,SCI",
+          "FSC,SCI"
+        ]
+      }
+    ],
+    "P6 Unity": [
+      {
+        "class_name": "P6 Unity",
+        "week": "Odd",
+        "day": "Tue",
+        "start_period": 9,
+        "end_period": 10,
+        "start_time": "11:30",
+        "end_time": "12:30",
+        "source_subjects": [
+          "FSC,SCI",
+          "FSC,SCI"
+        ]
+      },
+      {
+        "class_name": "P6 Unity",
+        "week": "Odd",
+        "day": "Thu",
+        "start_period": 6,
+        "end_period": 7,
+        "start_time": "10:00",
+        "end_time": "11:00",
+        "source_subjects": [
+          "FSC,SCI",
+          "FSC,SCI"
+        ]
+      },
+      {
+        "class_name": "P6 Unity",
+        "week": "Odd",
+        "day": "Fri",
+        "start_period": 1,
+        "end_period": 2,
+        "start_time": "09:30",
+        "end_time": "10:30",
+        "source_subjects": [
+          "FSC,SCI",
+          "FSC,SCI"
+        ]
+      },
+      {
+        "class_name": "P6 Unity",
+        "week": "Even",
+        "day": "Tue",
+        "start_period": 11,
+        "end_period": 12,
+        "start_time": "12:30",
+        "end_time": "13:30",
+        "source_subjects": [
+          "FSC,SCI",
+          "FSC,SCI"
+        ]
+      },
+      {
+        "class_name": "P6 Unity",
+        "week": "Even",
+        "day": "Wed",
+        "start_period": 9,
+        "end_period": 10,
+        "start_time": "11:30",
+        "end_time": "12:30",
+        "source_subjects": [
+          "FSC,SCI",
+          "FSC,SCI"
+        ]
+      }
+    ],
+    "P6 Wonder": [
+      {
+        "class_name": "P6 Wonder",
+        "week": "Odd",
+        "day": "Mon",
+        "start_period": 9,
+        "end_period": 10,
+        "start_time": "11:30",
+        "end_time": "12:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P6 Wonder",
+        "week": "Odd",
+        "day": "Thu",
+        "start_period": 6,
+        "end_period": 7,
+        "start_time": "10:00",
+        "end_time": "11:00",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P6 Wonder",
+        "week": "Odd",
+        "day": "Fri",
+        "start_period": 3,
+        "end_period": 4,
+        "start_time": "10:30",
+        "end_time": "11:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P6 Wonder",
+        "week": "Even",
+        "day": "Tue",
+        "start_period": 6,
+        "end_period": 7,
+        "start_time": "10:00",
+        "end_time": "11:00",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P6 Wonder",
+        "week": "Even",
+        "day": "Thu",
+        "start_period": 4,
+        "end_period": 5,
+        "start_time": "09:00",
+        "end_time": "10:00",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      },
+      {
+        "class_name": "P6 Wonder",
+        "week": "Even",
+        "day": "Fri",
+        "start_period": 9,
+        "end_period": 10,
+        "start_time": "13:30",
+        "end_time": "14:30",
+        "source_subjects": [
+          "SCI",
+          "SCI"
+        ]
+      }
+    ]
+  },
+  "baseline_schedule": {
+    "success": true,
+    "issues": [
+      "Current published baseline is intentionally seeded from the supplied school manual allocation screenshots while the timetable-revision mismatch is being investigated."
+    ],
+    "allocations": [
+      {
+        "class_name": "P4 Unity",
+        "week": "Odd",
+        "day": "Mon",
+        "start_period": 11,
+        "end_period": 12,
+        "start_time": "12:30",
+        "end_time": "13:30",
+        "source_subjects": [],
+        "opportunity_index": null,
+        "lab": "Lab 1",
+        "preferred_lab": "Lab 1",
+        "is_preferred_lab": true,
+        "source": "2026 school manual pre-assigned schedule"
+      },
+      {
+        "class_name": "P4 Resilience",
+        "week": "Odd",
+        "day": "Tue",
+        "start_period": 1,
+        "end_period": 2,
+        "start_time": "07:30",
+        "end_time": "08:30",
+        "source_subjects": [],
+        "opportunity_index": null,
+        "lab": "Lab 1",
+        "preferred_lab": "Lab 1",
+        "is_preferred_lab": true,
+        "source": "2026 school manual pre-assigned schedule"
+      },
+      {
+        "class_name": "P3 Wonder",
+        "week": "Odd",
+        "day": "Tue",
+        "start_period": 6,
+        "end_period": 7,
+        "start_time": "10:00",
+        "end_time": "11:00",
+        "source_subjects": [],
+        "opportunity_index": null,
+        "lab": "Lab 1",
+        "preferred_lab": "Lab 1",
+        "is_preferred_lab": true,
+        "source": "2026 school manual pre-assigned schedule"
+      },
+      {
+        "class_name": "P5 Integrity",
+        "week": "Odd",
+        "day": "Tue",
+        "start_period": 9,
+        "end_period": 10,
+        "start_time": "11:30",
+        "end_time": "12:30",
+        "source_subjects": [],
+        "opportunity_index": null,
+        "lab": "Lab 2",
+        "preferred_lab": "Lab 2",
+        "is_preferred_lab": true,
+        "source": "2026 school manual pre-assigned schedule"
+      },
+      {
+        "class_name": "P5 Resilience",
+        "week": "Odd",
+        "day": "Tue",
+        "start_period": 11,
+        "end_period": 12,
+        "start_time": "12:30",
+        "end_time": "13:30",
+        "source_subjects": [],
+        "opportunity_index": null,
+        "lab": "Lab 2",
+        "preferred_lab": "Lab 2",
+        "is_preferred_lab": true,
+        "source": "2026 school manual pre-assigned schedule"
+      },
+      {
+        "class_name": "P3 Integrity",
+        "week": "Odd",
+        "day": "Wed",
+        "start_period": 1,
+        "end_period": 2,
+        "start_time": "07:30",
+        "end_time": "08:30",
+        "source_subjects": [],
+        "opportunity_index": null,
+        "lab": "Lab 1",
+        "preferred_lab": "Lab 1",
+        "is_preferred_lab": true,
+        "source": "2026 school manual pre-assigned schedule"
+      },
+      {
+        "class_name": "P5 Unity",
+        "week": "Odd",
+        "day": "Wed",
+        "start_period": 5,
+        "end_period": 6,
+        "start_time": "09:30",
+        "end_time": "10:30",
+        "source_subjects": [],
+        "opportunity_index": null,
+        "lab": "Lab 1",
+        "preferred_lab": "Lab 2",
+        "is_preferred_lab": false,
+        "source": "2026 school manual pre-assigned schedule"
+      },
+      {
+        "class_name": "P5 Thanksgiving",
+        "week": "Odd",
+        "day": "Wed",
+        "start_period": 5,
+        "end_period": 6,
+        "start_time": "09:30",
+        "end_time": "10:30",
+        "source_subjects": [],
+        "opportunity_index": null,
+        "lab": "Lab 2",
+        "preferred_lab": "Lab 2",
+        "is_preferred_lab": true,
+        "source": "2026 school manual pre-assigned schedule"
+      },
+      {
+        "class_name": "P4 Empathy",
+        "week": "Odd",
+        "day": "Wed",
+        "start_period": 11,
+        "end_period": 12,
+        "start_time": "12:30",
+        "end_time": "13:30",
+        "source_subjects": [],
+        "opportunity_index": null,
+        "lab": "Lab 1",
+        "preferred_lab": "Lab 1",
+        "is_preferred_lab": true,
+        "source": "2026 school manual pre-assigned schedule"
+      },
+      {
+        "class_name": "P5 Empathy",
+        "week": "Odd",
+        "day": "Thu",
+        "start_period": 1,
+        "end_period": 2,
+        "start_time": "07:30",
+        "end_time": "08:30",
+        "source_subjects": [],
+        "opportunity_index": null,
+        "lab": "Lab 2",
+        "preferred_lab": "Lab 2",
+        "is_preferred_lab": true,
+        "source": "2026 school manual pre-assigned schedule"
+      },
+      {
+        "class_name": "P3 Empathy",
+        "week": "Odd",
+        "day": "Thu",
+        "start_period": 6,
+        "end_period": 7,
+        "start_time": "10:00",
+        "end_time": "11:00",
+        "source_subjects": [],
+        "opportunity_index": null,
+        "lab": "Lab 1",
+        "preferred_lab": "Lab 1",
+        "is_preferred_lab": true,
+        "source": "2026 school manual pre-assigned schedule"
+      },
+      {
+        "class_name": "P5 Wonder",
+        "week": "Odd",
+        "day": "Thu",
+        "start_period": 8,
+        "end_period": 9,
+        "start_time": "11:00",
+        "end_time": "12:00",
+        "source_subjects": [],
+        "opportunity_index": null,
+        "lab": "Lab 2",
+        "preferred_lab": "Lab 2",
+        "is_preferred_lab": true,
+        "source": "2026 school manual pre-assigned schedule"
+      },
+      {
+        "class_name": "P3 Thanksgiving",
+        "week": "Odd",
+        "day": "Thu",
+        "start_period": 11,
+        "end_period": 12,
+        "start_time": "12:30",
+        "end_time": "13:30",
+        "source_subjects": [],
+        "opportunity_index": null,
+        "lab": "Lab 1",
+        "preferred_lab": "Lab 1",
+        "is_preferred_lab": true,
+        "source": "2026 school manual pre-assigned schedule"
+      },
+      {
+        "class_name": "P3 Unity",
+        "week": "Odd",
+        "day": "Fri",
+        "start_period": 1,
+        "end_period": 2,
+        "start_time": "07:30",
+        "end_time": "08:30",
+        "source_subjects": [],
+        "opportunity_index": null,
+        "lab": "Lab 1",
+        "preferred_lab": "Lab 1",
+        "is_preferred_lab": true,
+        "source": "2026 school manual pre-assigned schedule"
+      },
+      {
+        "class_name": "P4 Wonder",
+        "week": "Odd",
+        "day": "Fri",
+        "start_period": 4,
+        "end_period": 5,
+        "start_time": "09:00",
+        "end_time": "10:00",
+        "source_subjects": [],
+        "opportunity_index": null,
+        "lab": "Lab 1",
+        "preferred_lab": "Lab 1",
+        "is_preferred_lab": true,
+        "source": "2026 school manual pre-assigned schedule"
+      },
+      {
+        "class_name": "P4 Integrity",
+        "week": "Odd",
+        "day": "Fri",
+        "start_period": 4,
+        "end_period": 5,
+        "start_time": "09:00",
+        "end_time": "10:00",
+        "source_subjects": [],
+        "opportunity_index": null,
+        "lab": "Lab 2",
+        "preferred_lab": "Lab 1",
+        "is_preferred_lab": false,
+        "source": "2026 school manual pre-assigned schedule"
+      },
+      {
+        "class_name": "P4 Thanksgiving",
+        "week": "Odd",
+        "day": "Fri",
+        "start_period": 9,
+        "end_period": 10,
+        "start_time": "11:30",
+        "end_time": "12:30",
+        "source_subjects": [],
+        "opportunity_index": null,
+        "lab": "Lab 1",
+        "preferred_lab": "Lab 1",
+        "is_preferred_lab": true,
+        "source": "2026 school manual pre-assigned schedule"
+      },
+      {
+        "class_name": "P4 Empathy",
+        "week": "Even",
+        "day": "Mon",
+        "start_period": 2,
+        "end_period": 3,
+        "start_time": "08:00",
+        "end_time": "09:00",
+        "source_subjects": [],
+        "opportunity_index": null,
+        "lab": "Lab 1",
+        "preferred_lab": "Lab 1",
+        "is_preferred_lab": true,
+        "source": "2026 school manual pre-assigned schedule"
+      },
+      {
+        "class_name": "P4 Integrity",
+        "week": "Even",
+        "day": "Mon",
+        "start_period": 2,
+        "end_period": 3,
+        "start_time": "08:00",
+        "end_time": "09:00",
+        "source_subjects": [],
+        "opportunity_index": null,
+        "lab": "Lab 2",
+        "preferred_lab": "Lab 1",
+        "is_preferred_lab": false,
+        "source": "2026 school manual pre-assigned schedule"
+      },
+      {
+        "class_name": "P5 Unity",
+        "week": "Even",
+        "day": "Tue",
+        "start_period": 1,
+        "end_period": 2,
+        "start_time": "07:30",
+        "end_time": "08:30",
+        "source_subjects": [],
+        "opportunity_index": null,
+        "lab": "Lab 2",
+        "preferred_lab": "Lab 2",
+        "is_preferred_lab": true,
+        "source": "2026 school manual pre-assigned schedule"
+      },
+      {
+        "class_name": "P3 Resilience",
+        "week": "Even",
+        "day": "Tue",
+        "start_period": 6,
+        "end_period": 7,
+        "start_time": "10:00",
+        "end_time": "11:00",
+        "source_subjects": [],
+        "opportunity_index": null,
+        "lab": "Lab 1",
+        "preferred_lab": "Lab 1",
+        "is_preferred_lab": true,
+        "source": "2026 school manual pre-assigned schedule"
+      },
+      {
+        "class_name": "P3 Wonder",
+        "week": "Even",
+        "day": "Tue",
+        "start_period": 8,
+        "end_period": 9,
+        "start_time": "11:00",
+        "end_time": "12:00",
+        "source_subjects": [],
+        "opportunity_index": null,
+        "lab": "Lab 1",
+        "preferred_lab": "Lab 1",
+        "is_preferred_lab": true,
+        "source": "2026 school manual pre-assigned schedule"
+      },
+      {
+        "class_name": "P3 Resilience",
+        "week": "Even",
+        "day": "Wed",
+        "start_period": 1,
+        "end_period": 2,
+        "start_time": "07:30",
+        "end_time": "08:30",
+        "source_subjects": [],
+        "opportunity_index": null,
+        "lab": "Lab 1",
+        "preferred_lab": "Lab 1",
+        "is_preferred_lab": true,
+        "source": "2026 school manual pre-assigned schedule"
+      },
+      {
+        "class_name": "P5 Integrity",
+        "week": "Even",
+        "day": "Wed",
+        "start_period": 3,
+        "end_period": 4,
+        "start_time": "08:30",
+        "end_time": "09:30",
+        "source_subjects": [],
+        "opportunity_index": null,
+        "lab": "Lab 2",
+        "preferred_lab": "Lab 2",
+        "is_preferred_lab": true,
+        "source": "2026 school manual pre-assigned schedule"
+      },
+      {
+        "class_name": "P4 Unity",
+        "week": "Even",
+        "day": "Wed",
+        "start_period": 7,
+        "end_period": 8,
+        "start_time": "10:30",
+        "end_time": "11:30",
+        "source_subjects": [],
+        "opportunity_index": null,
+        "lab": "Lab 1",
+        "preferred_lab": "Lab 1",
+        "is_preferred_lab": true,
+        "source": "2026 school manual pre-assigned schedule"
+      },
+      {
+        "class_name": "P4 Resilience",
+        "week": "Even",
+        "day": "Wed",
+        "start_period": 9,
+        "end_period": 10,
+        "start_time": "11:30",
+        "end_time": "12:30",
+        "source_subjects": [],
+        "opportunity_index": null,
+        "lab": "Lab 1",
+        "preferred_lab": "Lab 1",
+        "is_preferred_lab": true,
+        "source": "2026 school manual pre-assigned schedule"
+      },
+      {
+        "class_name": "P3 Unity",
+        "week": "Even",
+        "day": "Wed",
+        "start_period": 11,
+        "end_period": 12,
+        "start_time": "12:30",
+        "end_time": "13:30",
+        "source_subjects": [],
+        "opportunity_index": null,
+        "lab": "Lab 1",
+        "preferred_lab": "Lab 1",
+        "is_preferred_lab": true,
+        "source": "2026 school manual pre-assigned schedule"
+      },
+      {
+        "class_name": "P5 Resilience",
+        "week": "Even",
+        "day": "Wed",
+        "start_period": 11,
+        "end_period": 12,
+        "start_time": "12:30",
+        "end_time": "13:30",
+        "source_subjects": [],
+        "opportunity_index": null,
+        "lab": "Lab 2",
+        "preferred_lab": "Lab 2",
+        "is_preferred_lab": true,
+        "source": "2026 school manual pre-assigned schedule"
+      },
+      {
+        "class_name": "P3 Integrity",
+        "week": "Even",
+        "day": "Thu",
+        "start_period": 3,
+        "end_period": 4,
+        "start_time": "08:30",
+        "end_time": "09:30",
+        "source_subjects": [],
+        "opportunity_index": null,
+        "lab": "Lab 1",
+        "preferred_lab": "Lab 1",
+        "is_preferred_lab": true,
+        "source": "2026 school manual pre-assigned schedule"
+      },
+      {
+        "class_name": "P5 Empathy",
+        "week": "Even",
+        "day": "Thu",
+        "start_period": 5,
+        "end_period": 6,
+        "start_time": "09:30",
+        "end_time": "10:30",
+        "source_subjects": [],
+        "opportunity_index": null,
+        "lab": "Lab 2",
+        "preferred_lab": "Lab 2",
+        "is_preferred_lab": true,
+        "source": "2026 school manual pre-assigned schedule"
+      },
+      {
+        "class_name": "P5 Thanksgiving",
+        "week": "Even",
+        "day": "Thu",
+        "start_period": 8,
+        "end_period": 9,
+        "start_time": "11:00",
+        "end_time": "12:00",
+        "source_subjects": [],
+        "opportunity_index": null,
+        "lab": "Lab 2",
+        "preferred_lab": "Lab 2",
+        "is_preferred_lab": true,
+        "source": "2026 school manual pre-assigned schedule"
+      },
+      {
+        "class_name": "P3 Thanksgiving",
+        "week": "Even",
+        "day": "Thu",
+        "start_period": 11,
+        "end_period": 12,
+        "start_time": "12:30",
+        "end_time": "13:30",
+        "source_subjects": [],
+        "opportunity_index": null,
+        "lab": "Lab 1",
+        "preferred_lab": "Lab 1",
+        "is_preferred_lab": true,
+        "source": "2026 school manual pre-assigned schedule"
+      },
+      {
+        "class_name": "P4 Wonder",
+        "week": "Even",
+        "day": "Fri",
+        "start_period": 1,
+        "end_period": 2,
+        "start_time": "07:30",
+        "end_time": "08:30",
+        "source_subjects": [],
+        "opportunity_index": null,
+        "lab": "Lab 1",
+        "preferred_lab": "Lab 1",
+        "is_preferred_lab": true,
+        "source": "2026 school manual pre-assigned schedule"
+      },
+      {
+        "class_name": "P3 Empathy",
+        "week": "Even",
+        "day": "Fri",
+        "start_period": 3,
+        "end_period": 4,
+        "start_time": "08:30",
+        "end_time": "09:30",
+        "source_subjects": [],
+        "opportunity_index": null,
+        "lab": "Lab 1",
+        "preferred_lab": "Lab 1",
+        "is_preferred_lab": true,
+        "source": "2026 school manual pre-assigned schedule"
+      },
+      {
+        "class_name": "P5 Wonder",
+        "week": "Even",
+        "day": "Fri",
+        "start_period": 8,
+        "end_period": 9,
+        "start_time": "11:00",
+        "end_time": "12:00",
+        "source_subjects": [],
+        "opportunity_index": null,
+        "lab": "Lab 2",
+        "preferred_lab": "Lab 2",
+        "is_preferred_lab": true,
+        "source": "2026 school manual pre-assigned schedule"
+      },
+      {
+        "class_name": "P4 Thanksgiving",
+        "week": "Even",
+        "day": "Fri",
+        "start_period": 9,
+        "end_period": 10,
+        "start_time": "11:30",
+        "end_time": "12:30",
+        "source_subjects": [],
+        "opportunity_index": null,
+        "lab": "Lab 1",
+        "preferred_lab": "Lab 1",
+        "is_preferred_lab": true,
+        "source": "2026 school manual pre-assigned schedule"
+      }
+    ],
+    "exceptions": [
+      {
+        "class_name": "P3 Resilience",
+        "type": "current_manual_2_plus_0",
+        "message": "P3 Resilience currently has both pre-assigned sessions in the same week (0 Odd, 2 Even)."
+      }
+    ],
+    "summary": {
+      "sessions": 36,
+      "classes": 18,
+      "classes_with_2_sessions": 18,
+      "classes_with_1_session": 0,
+      "classes_with_0_sessions": 0,
+      "ideal_1_plus_1_classes": 17,
+      "fallback_2_plus_0_classes": 1,
+      "cross_lab_sessions": 3,
+      "zero_gap_transitions": 5,
+      "source": "Current school manual pre-assigned schedule"
+    },
+    "rules": {
+      "baseline_source": "manual_reference",
+      "sessions_per_cycle_target": 2,
+      "preferred_lab": {
+        "P3": "Lab 1",
+        "P4": "Lab 1",
+        "P5": "Lab 2",
+        "P6": "Lab 2"
+      },
+      "buffer_period_minutes": 30
+    }
+  },
+  "inventory": [
+    {
+      "id": "inv-electricity-kit",
+      "name": "Electricity Kit",
+      "category": "Sparkle Kit",
+      "lab": "Lab 2",
+      "location": "Cabinet C",
+      "expected_quantity": 10,
+      "current_quantity": 10,
+      "damaged_quantity": 0,
+      "condition": "Incomplete",
+      "notes": "Main kit boxes are present. Track missing components below.",
+      "photo": "assets/inventory/electricity-kit.webp",
+      "components": [
+        {
+          "name": "Bulb holder",
+          "expected": 40,
+          "current": 37,
+          "damaged": 0
+        },
+        {
+          "name": "Switch",
+          "expected": 20,
+          "current": 18,
+          "damaged": 0
+        },
+        {
+          "name": "Battery holder",
+          "expected": 20,
+          "current": 19,
+          "damaged": 0
+        },
+        {
+          "name": "Connecting wire",
+          "expected": 80,
+          "current": 80,
+          "damaged": 2
+        }
+      ],
+      "history": [
+        {
+          "when": "2026-09-05 10:43",
+          "who": "Lab Technician",
+          "change": "Inventory checked; missing components recorded."
+        }
+      ],
+      "active": true
+    },
+    {
+      "id": "inv-thermometers",
+      "name": "Laboratory Thermometers",
+      "category": "Apparatus",
+      "lab": "Lab 1",
+      "location": "Cabinet B / Drawer 2",
+      "expected_quantity": 30,
+      "current_quantity": 27,
+      "damaged_quantity": 1,
+      "condition": "Needs Attention",
+      "notes": "Two missing, one damaged.",
+      "photo": "assets/inventory/thermometers.webp",
+      "components": [],
+      "history": [],
+      "active": true
+    },
+    {
+      "id": "inv-light-kit",
+      "name": "Light and Shadows Kit",
+      "category": "Sparkle Kit",
+      "lab": "Lab 1",
+      "location": "Shelf A3",
+      "expected_quantity": 8,
+      "current_quantity": 8,
+      "damaged_quantity": 0,
+      "condition": "Good",
+      "notes": "",
+      "photo": "assets/inventory/light-shadows-kit.webp",
+      "components": [
+        {
+          "name": "Torch",
+          "expected": 8,
+          "current": 8,
+          "damaged": 0
+        },
+        {
+          "name": "Opaque screen",
+          "expected": 8,
+          "current": 8,
+          "damaged": 0
+        }
+      ],
+      "history": [],
+      "active": true
+    },
+    {
+      "id": "inv-beakers-250",
+      "name": "250 mL Beakers",
+      "category": "Apparatus",
+      "lab": "Lab 2",
+      "location": "Glassware Cabinet",
+      "expected_quantity": 36,
+      "current_quantity": 34,
+      "damaged_quantity": 0,
+      "condition": "Low Stock",
+      "notes": "Two units short of expected stock.",
+      "photo": "assets/inventory/beakers-250.webp",
+      "components": [],
+      "history": [],
+      "active": true
+    }
+  ],
+  "requests": [
+    {
+      "id": "req-demo-1",
+      "request_type": "additional",
+      "teacher": "Duane Chan",
+      "class_name": "P5 Wonder",
+      "week": "Odd",
+      "day": "Thu",
+      "lab": "Lab 2",
+      "start_time": "10:00",
+      "end_time": "11:00",
+      "activity": "Activity 5.6",
+      "sets": "10",
+      "apparatus": "Bulbs, switches, battery holders, connecting wires",
+      "remarks": "Demo request",
+      "status": "Pending",
+      "conflicts": [],
+      "submitted_at": "2026-09-05 14:10"
+    },
+    {
+      "id": "req-demo-conflict",
+      "request_type": "additional",
+      "teacher": "Duane Chan",
+      "class_name": "P5 Wonder",
+      "week": "Odd",
+      "day": "Wed",
+      "lab": "Lab 2",
+      "start_time": "09:30",
+      "end_time": "10:30",
+      "activity": "Activity 5.6",
+      "sets": "10",
+      "apparatus": "Bulbs, switches and connecting wires",
+      "remarks": "Demo conflict request so the HOD can see the warning workflow.",
+      "status": "Pending",
+      "conflicts": [],
+      "submitted_at": "2026-09-06 15:20"
+    }
+  ],
+  "settings": {
+    "active_timetable_version": "2026 Current Manual Pre-assigned Schedule \u2014 P3\u2013P5",
+    "baseline_source": "manual_reference",
+    "confirmation_deadline": "14:00",
+    "confirmation_deadline_finalised": false,
+    "auto_release_preassigned_only": true,
+    "email_reminders_enabled": false,
+    "email_reminders_planned": true,
+    "photo_max_dimension": 1000,
+    "photo_quality": 0.62,
+    "preferred_labs": {
+      "P3": "Lab 1",
+      "P4": "Lab 1",
+      "P5": "Lab 2",
+      "P6": "Lab 2"
+    },
+    "buffer_period_minutes": 30
+  }
+}

@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0b2d5c" />
+  <title>SASJ Science Lab Management</title>
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div id="app"></div>
+
+  <template id="login-template">
+    <main class="login-page">
+      <section class="login-card">
+        <div class="brand brand--hero">
+          <img class="brand__crest" data-school-crest alt="St Andrew's School (Junior) crest" />
+          <div>
+            <p class="eyebrow">St Andrew's School (Junior)</p>
+            <div class="title-line"><h1>SASJ Science Lab Management</h1><span class="prototype-badge">Prototype v0.5</span></div>
+            <p class="brand__tagline">Science lab scheduling, preparation and inventory in one place.</p>
+          </div>
+        </div>
+
+        <div class="login-form">
+          <label class="field">
+            <span>Who are you?</span>
+            <select id="login-role">
+              <option value="teacher">Science Teacher</option>
+              <option value="hod">Science HOD / SH</option>
+              <option value="labtech">Lab Technician</option>
+              <option value="admin">System Admin</option>
+            </select>
+          </label>
+
+          <label class="field">
+            <span>Password</span>
+            <input id="login-password" type="password" autocomplete="current-password" placeholder="Enter password" />
+          </label>
+
+          <button id="login-button" class="button button--primary button--wide">Sign in</button>
+          <p id="login-error" class="form-message form-message--error" hidden></p>
+          <p class="prototype-note"><strong>HOD demonstration prototype:</strong> use <code>demo</code> for any role. Changes are stored only in this browser. No production passwords, shared database or automatic emails are active yet.</p>
+        </div>
+      </section>
+      <footer class="public-footer">© 2026 St Andrew's School (Junior)</footer>
+    </main>
+  </template>
+
+  <template id="shell-template">
+    <div class="app-shell">
+      <aside id="sidebar" class="sidebar">
+        <div class="sidebar__brand">
+          <img class="sidebar__crest" data-school-crest alt="SASJ crest" />
+          <div class="sidebar__brand-text">
+            <strong>SASJ Science Lab</strong>
+            <span>Management</span>
+          </div>
+        </div>
+        <nav id="nav-list" class="nav-list" aria-label="Main navigation"></nav>
+        <div class="sidebar__bottom">
+          <button id="collapse-sidebar" class="icon-button sidebar-collapse" title="Collapse sidebar" aria-label="Collapse sidebar">⇤</button>
+          <button id="sign-out" class="button button--ghost button--wide">Sign out</button>
+        </div>
+      </aside>
+
+      <div id="mobile-backdrop" class="mobile-backdrop" hidden></div>
+
+      <section class="app-main">
+        <header class="topbar">
+          <button id="mobile-menu" class="icon-button topbar__menu" aria-label="Open navigation">☰</button>
+          <div>
+            <h1 id="page-title">Dashboard</h1>
+            <p id="page-subtitle" class="topbar__subtitle"></p>
+          </div>
+          <div class="topbar__role"><span class="prototype-mini">Prototype</span><div id="role-pill"></div></div>
+        </header>
+
+        <main id="page-content" class="page-content"></main>
+
+        <footer class="app-footer">
+          <div class="footer-brand">
+            <img data-school-crest alt="SASJ crest" />
+            <span>SASJ Science Lab Management</span>
+          </div>
+          <span>© 2026 St Andrew's School (Junior)</span>
+        </footer>
+      </section>
+    </div>
+  </template>
+
+  <div id="modal-root"></div>
+  <div id="toast-root" class="toast-root" aria-live="polite"></div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
