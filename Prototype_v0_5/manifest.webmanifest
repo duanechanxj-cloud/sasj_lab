@@ -1,0 +1,9 @@
+{
+  "name": "SASJ Science Lab Management",
+  "short_name": "SASJ Science Lab",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f4f7fb",
+  "theme_color": "#0b2d5c",
+  "icons": []
+}
