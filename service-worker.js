@@ -1,7 +1,7 @@
-const CACHE='sasj-science-lab-v0.6';
+const CACHE='sasj-science-lab-v0.7';
 const ASSETS=[
   './','index.html','css/styles.css','js/app.js','data/bootstrap.json',
-  'assets/sasj-crest-clean.webp','assets/sasj-fallback.svg',
+  'assets/sasj-crest-transparent.webp','assets/sasj-fallback.svg',
   'assets/inventory/electricity-kit.webp','assets/inventory/thermometers.webp',
   'assets/inventory/beakers-250.webp','assets/inventory/light-shadows-kit.webp',
   'manifest.webmanifest'
