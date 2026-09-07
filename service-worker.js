@@ -1,4 +1,4 @@
-const CACHE='sasj-science-lab-v0.7';
+const CACHE='sasj-science-lab-v0.8';
 const ASSETS=[
   './','index.html','css/styles.css','js/app.js','data/bootstrap.json',
   'assets/sasj-crest-transparent.webp','assets/sasj-fallback.svg',

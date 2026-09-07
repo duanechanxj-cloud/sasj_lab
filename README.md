@@ -1,8 +1,8 @@
-# SASJ Science Lab Management — HOD Prototype v0.7
+# SASJ Science Lab Management — HOD Prototype v0.8
 
 Static GitHub Pages-ready prototype. Demo password: `demo` for all roles.
 
-## New in v0.7
+## New in v0.8
 - Transparent SASJ crest so branding works cleanly on different backgrounds.
 - **Teacher Deployment** replaces the flat teacher roster and groups Science teachers by P3/P4/P5/P6. A teacher appears in every level they teach.
 - Headcount cards and deployment warnings help HOD/SH review Science manpower.
@@ -28,3 +28,7 @@ The site remains a browser-local demonstration: demo authentication, no shared S
 
 ## Publish
 Upload the contents of this folder to the root of the existing GitHub Pages repository and push to `main`. The Pages URL remains unchanged.
+
+## v0.8 addition
+- HOD/SH and System Admin can create new Science teacher records directly in Teacher Deployment
+- Teacher creation supports name, optional school email, active/inactive status, levels, mainstream class links and deployment notes
