@@ -3,7 +3,7 @@
     "name": "SASJ Science Lab Management",
     "school": "St Andrew's School (Junior)",
     "year": 2026,
-    "crest_url": "assets/sasj-crest-clean.webp",
+    "crest_url": "assets/sasj-crest-transparent.webp",
     "prototype_version": "v0.6",
     "demo_mode": true,
     "demo_note": "Public HOD prototype. Browser-local demo data only; no production authentication or shared database."
@@ -2606,6 +2606,167 @@
       "lab": "Lab 2",
       "start_time": "09:30",
       "end_time": "10:30"
+    }
+  },
+  "special_groups": [
+    {
+      "id": "sg-e2k-demo",
+      "name": "P5 E2K Science",
+      "type": "E2K",
+      "level": "P5",
+      "teachers": [],
+      "semester": "Semester 1",
+      "lab_requirement": "Both labs",
+      "notes": "After-school E2K programme. Demo deployment record only.",
+      "active": true
+    },
+    {
+      "id": "sg-p6-supp-demo",
+      "name": "P6 Supplementary Science",
+      "type": "Supplementary",
+      "level": "P6",
+      "teachers": [],
+      "semester": "Semester 1",
+      "lab_requirement": "As booked",
+      "notes": "Supplementary group; books lab ad hoc and is not included in mainstream baseline allocation.",
+      "active": true
+    }
+  ],
+  "blockouts": [],
+  "audit_logs": [
+    {
+      "when": "7 Sep 2026, 4:30 PM",
+      "who": "System Admin",
+      "action": "Prototype v0.7 prepared",
+      "detail": "Teacher Deployment and MOE academic calendar functions added."
+    }
+  ],
+  "academic_calendars": {
+    "2026": {
+      "source": "MOE school terms and holidays for 2026",
+      "terms": [
+        {
+          "name": "Term 1",
+          "start": "2026-01-02",
+          "end": "2026-03-13"
+        },
+        {
+          "name": "Term 2",
+          "start": "2026-03-23",
+          "end": "2026-05-29"
+        },
+        {
+          "name": "Term 3",
+          "start": "2026-06-29",
+          "end": "2026-09-04"
+        },
+        {
+          "name": "Term 4",
+          "start": "2026-09-14",
+          "end": "2026-11-20"
+        }
+      ],
+      "vacations": [
+        {
+          "name": "March holidays",
+          "start": "2026-03-14",
+          "end": "2026-03-22"
+        },
+        {
+          "name": "Mid-year holidays",
+          "start": "2026-05-30",
+          "end": "2026-06-28"
+        },
+        {
+          "name": "September holidays",
+          "start": "2026-09-05",
+          "end": "2026-09-13"
+        },
+        {
+          "name": "Year-end holidays",
+          "start": "2026-11-21",
+          "end": "2026-12-31"
+        }
+      ],
+      "scheduled_holidays": [
+        {
+          "name": "Youth Day school holiday",
+          "date": "2026-07-06"
+        },
+        {
+          "name": "Teachers' Day",
+          "date": "2026-09-04"
+        },
+        {
+          "name": "Children's Day",
+          "date": "2026-10-02"
+        }
+      ]
+    },
+    "2027": {
+      "source": "MOE school terms and holidays for 2027",
+      "terms": [
+        {
+          "name": "Term 1",
+          "start": "2027-01-04",
+          "end": "2027-03-12"
+        },
+        {
+          "name": "Term 2",
+          "start": "2027-03-22",
+          "end": "2027-05-28"
+        },
+        {
+          "name": "Term 3",
+          "start": "2027-06-28",
+          "end": "2027-09-03"
+        },
+        {
+          "name": "Term 4",
+          "start": "2027-09-13",
+          "end": "2027-11-19"
+        }
+      ],
+      "vacations": [
+        {
+          "name": "March holidays",
+          "start": "2027-03-13",
+          "end": "2027-03-21"
+        },
+        {
+          "name": "Mid-year holidays",
+          "start": "2027-05-29",
+          "end": "2027-06-27"
+        },
+        {
+          "name": "September holidays",
+          "start": "2027-09-04",
+          "end": "2027-09-12"
+        },
+        {
+          "name": "Year-end holidays",
+          "start": "2027-11-20",
+          "end": "2027-12-31"
+        }
+      ],
+      "scheduled_holidays": [
+        {
+          "name": "Youth Day school holiday",
+          "date": "2027-07-05"
+        },
+        {
+          "name": "Day after National Day school holiday",
+          "date": "2027-08-10"
+        },
+        {
+          "name": "Teachers' Day",
+          "date": "2027-09-03"
+        },
+        {
+          "name": "Children's Day",
+          "date": "2027-10-08"
+        }
+      ]
     }
   }
 }

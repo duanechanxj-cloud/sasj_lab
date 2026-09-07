@@ -497,3 +497,11 @@ tr:last-child td { border-bottom: 0; }
   #schedule-prev-week, #schedule-next-week { width: 100%; }
   .schedule-day-heading { align-items: flex-start; flex-direction: column; }
 }
+
+/* v0.7 deployment, calendar and operational refinements */
+.deployment-summary{margin-bottom:14px}.deployment-level{margin-top:16px}.roster-card__top{display:flex;justify-content:space-between;gap:8px;align-items:flex-start}.special-group-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.special-group-card{text-align:left;width:100%;padding:14px}.special-group-card h3{margin:8px 0 4px;color:var(--navy)}
+.operational-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:16px}.operational-session{display:grid;grid-template-columns:1fr 1fr;gap:12px;align-items:start}.released-slot-box{margin:14px 0;padding:12px 14px;border:1px solid #9fcdb5;background:#f2fbf6;border-radius:12px}.tag--available{background:#e5f6ec;color:#14613a;border-color:#a9d9bf}
+.stocktake-row{display:grid;grid-template-columns:1fr 120px;gap:12px;align-items:end;padding:10px 0;border-bottom:1px solid var(--line)}.compact-field{margin:0}
+.calendar-year-select{max-width:240px}.term-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:14px 0}.calendar-term{padding:12px;border:1px solid var(--line);border-radius:10px;background:#f8fbff;display:flex;flex-direction:column;gap:4px}.calendar-term strong{color:var(--navy)}.calendar-term span{font-size:.8rem;color:var(--muted)}.calendar-two-col{display:grid;grid-template-columns:1fr 1fr;gap:16px}.calendar-source{margin-top:12px}.blockout-item{width:100%;display:flex;justify-content:space-between;align-items:center;text-align:left}.audit-row{display:grid;grid-template-columns:1fr auto;gap:16px;padding:10px 0;border-bottom:1px solid var(--line)}.audit-row p{margin:3px 0 0;color:var(--muted)}
+.sidebar__crest,.footer-brand img,.brand__crest{object-fit:contain}
+@media(max-width:760px){.special-group-grid,.operational-grid,.calendar-two-col,.term-grid{grid-template-columns:1fr}.stocktake-row{grid-template-columns:1fr 110px}.audit-row{grid-template-columns:1fr}.deployment-level .roster-grid{grid-template-columns:1fr}}
